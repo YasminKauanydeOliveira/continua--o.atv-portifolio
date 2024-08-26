@@ -147,6 +147,11 @@ a {
 	text-decoration: none;
 }
 
+main {
+	margin: 0 20vw 0 20vw;
+}
+
+
 /*========================================================
                        TOPO
 ==========================================================*/
@@ -168,12 +173,8 @@ header nav ul li.atual a {
 }
 
 /*========================================================
-                       CONTEÚDO
+                       CONTEÚDO - WORKS
 ==========================================================*/
-
-main.works {
-	margin: 0 15vw 0 15vw;
-}
 
 main.works h1 {
 	font-size: 1.5rem;
@@ -205,6 +206,101 @@ main.works section p span {
 	padding: 3px 10px 3px 10px;
 }
 
+/*========================================================
+                       CONTEÚDO - HOME PAGE
+==========================================================*/
+
+main section.banner {
+	display: flex;
+	margin: 3vw 0 1vw 0;
+}
+
+section.banner h1 {
+	font-size: 2rem;
+}
+
+section.banner p {
+	margin: 1.5vw 4vw 1.5vw 0;
+}
+
+section.banner button {
+	background-color: #ff6464;
+	color: white;
+	padding: 20px 15px 20px 15px;
+	border: none;
+	font-size: 1.1rem;
+}
+
+section.rt-post {
+	background-color: #d5eafc;
+	padding: 3w 2vw 1vw 2vw;
+}
+
+section.rt-post h2 {
+	font-size: 1.7rem;
+	margin: 3vw 0vw 3% 0vw;
+}
+
+section.rt-post ul {
+	display: flex;
+
+}
+
+section.rt-post ul li {
+	background-color: white;
+	margin: 0 1.4vw 0 0;
+}
+
+section.rt-post ul li h3 {
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+section.rt-post ul li p {
+	margin: 3vw 1vw 3vw 1vw;
+}
+
+/*ft-works*/
+section.ft-works h2 {
+	margin: 3vw 0vw 3vw 0vw;
+}
+
+section.ft-works ul {
+	margin: 2vw 0vw 2vw 0vw;
+	display: flex;
+}
+
+section.ft-works ul li {
+	margin: 2vw 0vw 2vw 5vw;
+}
+
+section.ft-works ul li:first-child {
+	margin: 2vw 0vw 2vw 0vw;
+}
+
+section.ft-works ul li h3 {
+	margin: 3vw 0vw 2vw 0vw;
+	font-weight: bold;
+	font-size: 1.3rem;
+	color: #21243D;
+}
+
+section.ft-works ul li p {
+	margin: 2vw 0 2vw 0vw;
+}
+
+section.ft-works ul li p.paragrafo {
+	color: #8695A4;
+}
+
+section.ft-works ul li p span {
+	background-color: #142850;
+	border-radius: 5vw;
+	color: #ffffff;
+	padding: 5px 8px 5px 8px;
+
+}
+
 
 /*========================================================
                        FOOTER
@@ -213,4 +309,14 @@ main.works section p span {
 footer {
 	text-align: center;
 	margin: 2vw 0 2vw 0;
+}
+
+footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li {
+	margin: 0 10px 0 10px;
+	font-size: 1.4rem;
 }
